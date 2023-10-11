@@ -14,7 +14,7 @@ function App() {
   const user  = useUserAuth(); // Get the user's authentication status
 
   return (
-    <Container style={{ width: "400px" }}>
+    <Container style={{ width: "500px" }}>
       <Row>
         <Col>
           {user && <SideMenu />} {/* Render the SideMenu if the user is logged in */}

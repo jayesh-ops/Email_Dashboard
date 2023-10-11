@@ -50,10 +50,11 @@ const Signup = () => {
             </Button>
           </div>
         </Form>
-      </div>
-      <div className="p-4 box mt-3 text-center">
+        <div className="p-4 ">
         Already have an account? <Link to="/">Log In</Link>
       </div>
+      </div>
+      
     </>
   );
 };
